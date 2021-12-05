@@ -6,15 +6,15 @@ namespace Labb_5_Generic_Class
 {
     public class Check
     {
-        public bool toCheck<T>(T var1, T var2)
+        public void toCheck<T>(T var1, T var2)
         {
             if (var1.Equals(var2))
             {
-                return true;
+                Console.WriteLine("Equal");
             }
             else
             {
-                return false;
+                Console.WriteLine("Not equal");
             }
         }
     }
