@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Labb_5_Generic_Class
 {
-    public class Check
+    public class Check <T>
     {
-        public void toCheck<T>(T var1, T var2)
+        public void toCheck(T var1, T var2)
         {
             if (var1.Equals(var2))
             {

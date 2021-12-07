@@ -6,11 +6,11 @@ namespace Labb_5_Generic_Class
     {
         static void Main(string[] args)
         {
-            CheckChild1 obj1 = new CheckChild1();
-            CheckChild1 obj2 = new CheckChild1();
+            CheckChild1<int> obj1 = new CheckChild1<int>();
+            CheckChild1<string> obj2 = new CheckChild1<string>();
 
-            CheckChild2 obj3 = new CheckChild2();
-            CheckChild2 obj4 = new CheckChild2();
+            CheckChild2<double> obj3 = new CheckChild2<double>();
+            CheckChild2<bool> obj4 = new CheckChild2<bool>();
 
             obj1.toCheck(10, 10);
             obj2.toCheck("Hello", "Hello");

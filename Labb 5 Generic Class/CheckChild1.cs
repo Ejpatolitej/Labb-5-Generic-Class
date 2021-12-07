@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Labb_5_Generic_Class
 {
-    class CheckChild1 : Check
+    class CheckChild1 <T> : Check <T>
     {
     }
 }
